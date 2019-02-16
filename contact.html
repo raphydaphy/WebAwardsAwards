@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">.
+		<title>Web Awards Awards | Contact Us</title>
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+		<link href="main.css" type="text/css" rel="stylesheet">
+
+		<script type="text/javascript">
+			var observe;
+			if (window.attachEvent) {
+			    observe = function (element, event, handler) {
+			        element.attachEvent('on'+event, handler);
+			    };
+			}
+			else {
+			    observe = function (element, event, handler) {
+			        element.addEventListener(event, handler, false);
+			    };
+			}
+			function init () {
+			    var text = document.getElementById('text');
+			    function resize () {
+			        text.style.height = 'auto';
+			        text.style.height = text.scrollHeight+'px';
+			    }
+			    /* 0-timeout to get the already changed text */
+			    function delayedResize () {
+			        window.setTimeout(resize, 0);
+			    }
+			    observe(text, 'change',  resize);
+			    observe(text, 'cut',     delayedResize);
+			    observe(text, 'paste',   delayedResize);
+			    observe(text, 'drop',    delayedResize);
+			    observe(text, 'keydown', delayedResize);
+
+			    text.focus();
+			    text.select();
+			    resize();
+			}
+		</script>
+
+	</head>
+	<body onload="init();">
+		<div class="container">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="winners.html">Winners</a></li>
+					<li><a href="about.html">About</a></li>
+					<li class="current"><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+			<header>
+				<h1>Contact Us</h1>
+				<p>We believe that you need good contacts to succeed</p>
+			</header>
+			<article class="full">
+				<h2>Leave us a message</h2>
+				<p>Fill our this form and we will get back to you as soon as we can</p><br />
+				<form>
+				<input placeholder="Name" type="name" required /> <Br /> <br />
+				<input placeholder="Email" type="email" required /> <br /> <br />
+				<textarea rows="1" placeholder="Message" id="text" required></textarea><br /> <br />
+				<input type="submit" value="Send" />
+			</form>
+			</article>
+			<article class="full alt">
+				<h2>Contact Details</h2>
+				<p>We are avalable three hours a day via email, phone or instagram. If you don't want to use any of those three services to contact us, use the form above and we will get back to you within a month. If you have any problems, feel free to fill out another form about the problems.</p>
+				<ul>
+					<li>Instagram <b>@webawardsawards</b></li>
+					<li>Email <b>contact@webawardsawards.com</b></li>
+					<li>Phone <b>1234 567 890</b></li>
+				</ul>
+				<p>We look forward to hearing from you!</p>
+			</article>
+			
+			<footer>
+				<p>Website Designed & Built by <a href="http://raphaelhennessy.com" target="_blank">Raph Hennessy</a>.</p>
+			</footer>
+		</div>
+
+		
+	</body>
+</html>

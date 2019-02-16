@@ -14,6 +14,29 @@ div.container {
 	background-color: #E0E0E0;
 }
 
+input[type=name], input[type=email], textarea {
+	border: none;
+	border-bottom: 1px solid #2d3436;
+	background-color: #E0E0E0;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	padding: 4px;
+	font-family: 'Raleway', sans-serif;
+}
+
+textarea {
+	resize: none;
+	outline: none;
+	height: 2em;
+	overflow: hidden;
+}
+
+input[type=name]:focus, input[type=email]:focus textarea:focus {
+	border-bottom: 1px solid #636e72;
+}
+
 /* nav bar */
 nav {
 	margin: 30px auto;
@@ -73,10 +96,6 @@ article.full {
 	color: #212121;
 }
 
-article.alt {
-	background-color: #FAFAFA;
-}
-
 @media only screen and (min-width: 731px) {
 	article.right {
 		float: right;
@@ -94,6 +113,10 @@ article.alt {
 img.main {
 	width: 660px;
 	display: block;
+}
+
+article.alt {
+	background-color: #FAFAFA;
 }
 
 
