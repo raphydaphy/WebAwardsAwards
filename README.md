@@ -26,13 +26,13 @@ Analyzing sites from webawards.com.au - for a school project
 
 I chose these sites to write about..
 
-###[Balance Now](https://www.balancenow.com.au/)
+### [Balance Now](https://www.balancenow.com.au/)
 Gender balancing in workplaces. Designed by [humaan](https://humaan.com/).
 
-###[Carers Australia WA](https://www.carerswa.asn.au/)
+### [Carers Australia WA](https://www.carerswa.asn.au/)
 Improving the lives of carers in Western Australia. Designed by [bam](https://www.bam.com.au).
 
-###[Style Sourcebook](https://stylesourcebook.com.au/)
+### [Style Sourcebook](https://stylesourcebook.com.au/)
 A tool to design and source living areas. Designed internally.
 
 
