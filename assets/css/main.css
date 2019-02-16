@@ -1,0 +1,164 @@
+/* overall style */
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #388E3C;
+}
+
+a {
+	text-decoration: none;
+}
+
+div.container {
+	margin: 0 auto;
+	width: 660px;
+	background-color: #E0E0E0;
+}
+
+input[type=name], input[type=email], textarea {
+	border: none;
+	border-bottom: 1px solid #2d3436;
+	background-color: #E0E0E0;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	padding: 4px;
+	font-family: 'Raleway', sans-serif;
+}
+
+textarea {
+	resize: none;
+	outline: none;
+	height: 2em;
+	overflow: hidden;
+}
+
+input[type=name]:focus, input[type=email]:focus textarea:focus {
+	border-bottom: 1px solid #636e72;
+}
+
+/* nav bar */
+nav {
+	margin: 30px auto;
+	margin-bottom: 0;
+	border-top: solid;
+	border-color: #7CB342;
+	border-width: 10px;
+	text-align: center;
+	background-color: #E0E0E0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 20px;
+}
+
+nav ul li {
+	display: inline;
+	padding: 20px 8px;
+}
+
+nav ul li:hover {
+	background-color: #EEEEEE;
+}
+
+nav ul li.current {
+	background-color: #FAFAFA;
+}
+
+nav ul li a {
+	color: #212121;
+}
+
+nav ul li a:hover {
+	color: #424242;
+
+}
+
+nav ul li a:active {
+	color: #E53935;
+}
+
+/* header styling */
+header {
+	background-color: #FAFAFA;
+	padding: 30px;
+	text-align: center;
+	color: #212121;
+}
+
+/* content styling */
+article.full {
+	background-color: #E0E0E0;
+	margin: 0 auto;
+	padding: 30px;
+	color: #212121;
+}
+
+@media only screen and (min-width: 731px) {
+	article.right {
+		float: right;
+		display: inline;
+		width: 42.42%;
+	}
+	img.left {
+		margin: 0 auto;
+		display: inline;
+		width: 48.48%;
+		padding: 0;
+	}
+}
+
+img.main {
+	width: 660px;
+	display: block;
+}
+
+article.alt {
+	background-color: #FAFAFA;
+}
+
+
+/* footer styling */
+footer {
+	background-color: #E0E0E0;
+	margin: 50px auto;
+	margin-top: 0;
+	padding: 30px;
+	border-bottom: solid;
+	border-color: #7CB342;
+	border-width: 10px;
+	text-align: center;
+}
+
+/* adjust for small screens */
+@media only screen and (max-width: 730px) {
+	body {
+	}
+
+	div.container {
+		margin: 0 0;
+		width: 100%;
+		padding: 0;
+		display:inline-block;
+	}
+
+	nav {
+		margin: 0 0;
+		border: none;
+	}
+
+	img.main {
+		width: 100%;
+	}
+
+	img.left {
+		width: 100%;
+	}
+
+	footer {
+		border: none;
+		margin: 0;
+	}
+}
