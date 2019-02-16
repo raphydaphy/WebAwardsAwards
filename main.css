@@ -70,7 +70,7 @@ article.alt {
 	background-color: #FAFAFA;
 }
 
-@media only screen and (min-width: 651px) {
+@media only screen and (min-width: 731px) {
 	article.right {
 		float: right;
 		display: inline;
@@ -103,7 +103,7 @@ footer {
 }
 
 /* adjust for small screens */
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 730px) {
 	body {
 	}
 
