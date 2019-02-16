@@ -115,7 +115,7 @@ img.main {
 	display: block;
 }
 
-article.alt {
+article.alt, footer.alt {
 	background-color: #FAFAFA;
 }
 
