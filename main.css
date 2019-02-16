@@ -70,10 +70,18 @@ article.alt {
 	background-color: #FAFAFA;
 }
 
-article.left {
-	float: right;
-	display: inline;
-	width: 280px;
+@media only screen and (min-width: 651px) {
+	article.right {
+		float: right;
+		display: inline;
+		width: 42.42%;
+	}
+	img.left {
+		margin: 0 auto;
+		display: inline;
+		width: 48.48%;
+		padding: 0;
+	}
 }
 
 img.main {
@@ -81,12 +89,6 @@ img.main {
 	display: block;
 }
 
-img.right {
-	margin: 0 auto;
-	display: inline;
-	width: 320px;
-	padding: 0;
-}
 
 /* footer styling */
 footer {
@@ -98,4 +100,34 @@ footer {
 	border-color: #7CB342;
 	border-width: 10px;
 	text-align: center;
+}
+
+/* adjust for small screens */
+@media only screen and (max-width: 650px) {
+	body {
+	}
+
+	div.container {
+		margin: 0 0;
+		width: 100%;
+		padding: 0;
+	}
+
+	nav {
+		margin: 0 0;
+		border: none;
+	}
+
+	img.main {
+		width: 100%;
+	}
+
+	img.left {
+		width: 100%;
+	}
+
+	footer {
+		border: none;
+		margin: 0;
+	}
 }
