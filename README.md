@@ -36,6 +36,7 @@ Improving the lives of carers in Western Australia. Designed by [bam](https://ww
 ### [Style Sourcebook](https://stylesourcebook.com.au/)
 A tool to design and source living areas. Designed internally.\
 
+## Design
 
 Then I designed my site in Sublime Text using HTML & CSS. Currently it only has a home page with some images and placeholder text. You can view it on [GitHub Pages](https://raphydaphy.github.io/WebAwardsAwards) or browse the repository to see the source. I didn't use any WYSIWYG editor or templates although it was recommended in the task, because I wanted to have an additional challenge, and become more familiar with some CSS concepts. This was a success, since I now understand how to use `float` and `clear` as well as put some more simpler things to better use.\
 
