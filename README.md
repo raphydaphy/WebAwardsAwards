@@ -1,5 +1,5 @@
 # Web Awards Awards
-Analyzing sites from webawards.com.au - for a school project
+Analyzing sites from webawards.com.au
 
 ## Tasks
 
